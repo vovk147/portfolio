@@ -49,7 +49,7 @@ Form.addEventListener("submit",(event) => {
     event.preventDefault()
     let message = `Заявка з сайту\n\nName: ${InpName.value}\nEmail: ${InpEmail.value}`
     sendData(message).then(() =>{  
-      alert("hello")
+      alert("Thank you for sending the form")
     })
    event.target.reset();
 
