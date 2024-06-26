@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="/img/kirito new.png" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="logika_game.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+	<div class="navigation">
+		<nav class="menu">
+			<a href="index_ua.html"><img src="img/logo_2.png" class="logo"></a>
+			<div class="menu_nav">
+				<p><a href="/index_ua.html">Домашня сторінка</a></p>
+				<p> <a href="/my_project_ua.html">Мої проекти</a></p>
+				<p class="cont"> <a href="/index_ua.html">Kонтакт</a></p>
+				<p><a href="logika_game.html"><span class=" ua">UA</span> / <span class=" en"> EN</span></a></p>
+			</div>
+
+			<div class="burger">
+				<figure></figure>
+				<figure></figure>
+				<figure></figure>
+			</div>
+		</nav>
+	</div>
+	<header>
+        <div class="arrow">
+            <a href="/my_project_ua.html">
+            <figure></figure>
+            <figure></figure>
+            <figure></figure>
+        </a>
+        </div>
+            <h1>Перейти до всіх проектів</h1>
+	</header>
+	<main>
+        <div class="container">
+            <img src="/img/Logika_game.png" alt="" class="big_img">
+            <div class="text_container">
+                <p class="big_text_container">Logika game</p>
+                <p>Мета: Проект спрямований на командну роботу</p>
+                <p>Співпрацював: Максим Білянський</p>
+				<p>Використовував Html, JavaScript, CSS</p>
+                <a href="https://logika-progect.vercel.app/"><p>Переглянути проект<img src="/img/GitHub_Card.png" alt="" class="GitHub_Card"></a></p>
+            </div>
+        </div>
+		 <!-- Swiper -->
+		 <div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+			  <div class="swiper-slide"><img src="/img/image 24.png" alt=""></div>
+			  <div class="swiper-slide"><img src="/img/image 25.png" alt=""></div>
+			  <div class="swiper-slide"><img src="/img/image 23.png" alt=""></div>
+			  <div class="swiper-slide"><img src="/img/image 26.png" alt=""></div>
+			  <div class="swiper-slide"><img src="/img/image 27.png" alt=""></div>
+			
+			</div>
+			
+		  </div>
+      
+	</main>
+	<div class="ft">
+	<footer>
+		<a href="index_ua.html"> <img src="img/logo_2.png" class="logo_2"></a>
+		<div class="number">
+			<p>+48739500702</p>
+			<p>+380993133600</p>
+		</div>
+		<div class="link_img">
+            
+			<a href="https://github.com/vovk147"><img src="/img/GitHub_Card.png" alt=""></a>
+			<a href="https://x.com/vovk147"><img src="/img/image 7.png" alt=""></a>
+			<a href="https://t.me/vovk147"><img src="/img/image 8.png" alt=""></a>
+			<a href="https://discord.com/users/1060982121092612197/"><img src="/img/image 11.png" alt=""></a>
+		</div>
+	</footer>
+    </div>
+
+	<script src="my_project.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script>
+	 var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      },
+	  autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+	  pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+	  </script>
+
+
+</body>
+
+</html>
